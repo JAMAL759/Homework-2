@@ -6,10 +6,6 @@ function calc() {
     
 
 const numberr1 = Number(prompt("Ener a number "));
-
-const operator = prompt("Ener an operator ");
-
-
 const numberr2 = Number(prompt("Ener a number "));
 
 if ( isNaN(numberr1) && isNaN(numberr2)) {
@@ -17,7 +13,7 @@ if ( isNaN(numberr1) && isNaN(numberr2)) {
     
 }
 
-
+const operator = prompt("Ener an operator ");
 
 
 
@@ -30,7 +26,8 @@ if ( numberr2 == 0 && operator == '/' ) {
 else {
 
 
-    let sum = 0 
+sum = 0
+let squareRoot = ""
 
 switch(operator) {
     case "+":
